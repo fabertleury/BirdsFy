@@ -1,7 +1,11 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
-const Header = () => <div />;
-
-export default Header;
+export default function Header() {
+  return (
+    <Container>
+      <h1>BirdsFy</h1>
+    </Container>
+  );
+}
